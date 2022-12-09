@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .main {
@@ -7,40 +7,77 @@
   padding: 4rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
-.title {
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px green;
+}
+
+.profile:hover {
+  box-shadow: 0px 0px 10px 10px green;
+}
+.name {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
-.title,
-.description {
+.name,
+.occupation {
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
+.occupation {
+  margin: 1rem 0;
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 0.95rem;
   color: rgb(150, 150, 150);
 }
 
-.grid {
+.profileImage {
+  margin: 1.5rem;
+  align-self: center;
+}
+
+.experience {
+  font-size: 0.95rem;
+  margin: 1rem;
+}
+
+.experience h2 {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.socials {
+  max-height: 50px;
   display: flex;
-  align-items: center;
+  width: 45px;
+  align-content: center;
+  align-self: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .title {
+    font-size: 1.85rem;
+  }
+  .description {
+    font-size: 1.25rem;
+  }
+
+  .gridLinks {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
