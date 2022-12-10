@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
@@ -35,7 +36,6 @@ export default function Home() {
             <a href="https://www.linkedin.com">
               <FontAwesomeIcon icon={faLinkedin} className={styles.socials}/>
             </a>
-
           </div>
           <div className={styles.experience}>
             <h2>Experience</h2>
@@ -49,6 +49,11 @@ export default function Home() {
             <p>Azure Devops: 1 year</p>
             <p>Git and Github: 4 years</p>
           </div>
+        </div>
+        <Projects />
+        <div className={styles.contactMe}>
+          <h1>Contact</h1>
+          <p> Test </p>
         </div>
       </main>
     </div>

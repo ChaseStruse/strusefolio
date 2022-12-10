@@ -19,6 +19,7 @@
   border-width: thick;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 5px green;
+  position:fixed;
 }
 
 .profile:hover {
@@ -66,6 +67,13 @@
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.contactMe {
+  display: flex;
+  position: fixed;
+  margin-left: 75%;
+  flex-direction: column;
 }
 
 @media (max-width: 600px) {
