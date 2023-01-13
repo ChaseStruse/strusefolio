@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Projects from "../components/projects";
+import Projects from "../components/chase-projects/projects";
 import ContactCard from "../components/contact/contact-card";
 import Profile from "../components/profile/profile";
 

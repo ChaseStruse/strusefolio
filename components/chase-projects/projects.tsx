@@ -1,4 +1,4 @@
-import ProjectCard from "./project-card";
+import ProjectCard from "./project-card/project-card";
 import style from "./projects.module.css";
 
 export default function Projects() {

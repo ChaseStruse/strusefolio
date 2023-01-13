@@ -1,4 +1,4 @@
-import styles from "./projects.module.css";
+import styles from "./project-card.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
