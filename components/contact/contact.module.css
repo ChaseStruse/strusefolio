@@ -4,3 +4,14 @@
     margin-left: 80%;
     flex-direction: column;
 }
+
+.cardInput input {
+    width: 90%;
+    margin-top: 3.5px;
+    margin-bottom: 5px;
+}
+
+.cardButton input {
+    margin-top: 3.5px;
+    width: 90%;
+}
