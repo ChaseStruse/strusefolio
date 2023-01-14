@@ -4,7 +4,7 @@ export default function ContactCard() {
   return (
     <div className={styles.card}>
       <h1>Contact</h1>
-      <form>
+      <form action="/api/form" method="post">
         <div className={styles.cardInput}>
           <label>
             Name:
